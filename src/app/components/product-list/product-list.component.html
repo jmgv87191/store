@@ -1,0 +1,9 @@
+<p>product-list works!</p>
+
+{{ productsState.state.status() }}
+
+@for (item of productsState.state().products; track $index) {
+
+    <p> {{ item.title }} </p>
+
+}
